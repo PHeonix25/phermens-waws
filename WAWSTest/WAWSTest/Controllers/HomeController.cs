@@ -13,6 +13,7 @@ namespace WAWSTest.Controllers
 
         public ActionResult Index()
         {
+            View().ViewBag.RobyParameter = "My name is Roby"; // Not the "right" way of doing things.
             return View();
         }
 
